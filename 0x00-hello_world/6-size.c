@@ -9,15 +9,13 @@ char a;
 int b;
 long int c;
 long long int d;
-double db;
 float f;
-printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of an int: %lu bytes(s)\n", (unsigned long)sizeof(b));
-printf("Size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c));
-printf("Size of a long long int: %lu bytes\(s)n", (unsigned long)sizeof(d));
-printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-printf("Size of double: %zu bytes\n", (unsigned long)sizeof(db));
-
+printf("Size of char: %zu byte\n", sizeof(a));
+printf("Size of int: %zu bytes\n", sizeof(b));
+printf("Size of long int: %zu bytes\n", sizeof(c));
+printf("Size of long long int: %zu bytes\n", sizeof(d));
+printf("Size of float: %zu bytes\n", sizeof(f));
 return (0);
 }
+
 

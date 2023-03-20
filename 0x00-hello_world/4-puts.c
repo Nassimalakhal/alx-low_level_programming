@@ -1,4 +1,9 @@
 #!/bin/bash
+/**
+* main - Entry
+*
+* return : 0 (success)
+*/
 #include <stdio.h>
 int main(void)
 {
@@ -6,3 +11,4 @@ int main(void)
     
   return 0;
 }
+

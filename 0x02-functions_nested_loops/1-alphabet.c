@@ -3,15 +3,16 @@
 * main - Entry
 * Return: 0 Always (Success)
 */
-int main()
+int main(void)
 {
 char ch = 'a';
 printf("Lowercase Alphabets:\n");
-while(ch <= 'z')
+while (ch <= 'z')
 {
-printf("%c ", ch);
+printf("%c", ch);
 ch++;
 }
 printf("\n");
-return 0;
+return (0);
 }
+

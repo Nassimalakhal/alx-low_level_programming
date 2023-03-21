@@ -18,7 +18,7 @@ _putchar('\n');
 void print_alphabet_x10(void)
 {
 int i;
-for (c=1; c <=10; c++)
+for (i=1; i <=10; i++)
  {
   print_alphabet();
   print("\n");

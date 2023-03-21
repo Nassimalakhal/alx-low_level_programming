@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet_x10 - Entry 10 times alphabet
+* print_alphabet - Eaa
 * Return: void
 */
 void print_alphabet(void)
@@ -12,6 +12,12 @@ _putchar(c);
 }
 _putchar('\n');
 }
+
+/**
+* print_alphabet_x10 - Entry 10 times alphabet
+* Return: void
+**/
+
 void print_alphabet_x10(void)
 {
 int i;

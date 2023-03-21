@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-* main - Entry
-* Return: 0 Always (Success)
+* print_alphabet - Entry
+* Return: void
 */
 void print_alphabet(void);
 {
 char c;
-for (c = 'a'; c <= 'z'; c++)
+for(c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }

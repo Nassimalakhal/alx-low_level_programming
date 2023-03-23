@@ -29,5 +29,6 @@ _putchar((k % 10) + '0');
 _putchar('\n');
 }
 }
+_putchar('\n');
 }
 }

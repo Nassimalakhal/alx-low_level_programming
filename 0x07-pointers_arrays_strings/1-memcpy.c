@@ -2,8 +2,8 @@
 /**
 * _memcpy - function that copies memory area
 * @n: the number of bytes to be copied
-* @src: memory area
-* @dest: memory area
+* @src: memory area copied
+* @dest: memory area stored
 * Return: change pointer to dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n)

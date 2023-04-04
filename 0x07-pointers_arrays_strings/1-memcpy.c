@@ -4,7 +4,7 @@
 * @n: the number of bytes to be copied
 * @src: memory area copied
 * @dest: memory area stored
-* Return: change pointer to dest
+* Return: copied memory with n byted changed
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -13,7 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
   for(; j < i; j++)
   {
-    dest[j]=src[j];
+    dest[j] = src[j];
     n--;
   }
     return (dest);

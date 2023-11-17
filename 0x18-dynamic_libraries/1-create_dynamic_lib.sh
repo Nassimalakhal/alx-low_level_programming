@@ -1,4 +1,5 @@
 #!/bin/bash
+<<<<<<< HEAD
 GCC=gcc
 
 OTHERS="-Wall -shared -fPIC"
@@ -8,3 +9,8 @@ FILES="0-isupper.c 1-memcpy.c 3-islower.c 4-strpbrk.c _putchar.c 0-memset.c 1-st
 OUTPUT=liball.so
 
 $GCC $OTHERS $FILES -o $OUTPUT
+=======
+gcc *.c -c -fPIC
+gcc *.o -shared -o liball.so
+
+>>>>>>> 98007e2809c84490af5784cc0bd5d281180cd11a
